@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap');
+:root {
+    --Very-dark-blue: hsl(217, 54%, 11%);
+    --Very-dark-blue-card: hsl(216, 50%, 16%);
+
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --cyan-hover:hsl(178, 100%, 80%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    --bg-body: var(--Very-dark-blue);
+    --bg-card: var(--Very-dark-blue-card);
+
+    --paragraph: var(--soft-blue);
+    --span: var(--white);
+
+    --heading: var(--white);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-body);
+}
+section
+{
+    margin: 0 auto;
+    background-color: var(--bg-card);
+    max-width: 350px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.container {
+    padding: 20px;
+}
+.equilibrium {
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.image {
+    position: relative;
+}
+.image:hover::before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color:var(--cyan);
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.equilibrium:hover {
+    opacity: .3;
+}
+h4 {
+    font-size: 25px;
+    color: var(--heading);
+    font-weight: 600;
+    cursor: pointer;
+}
+h4:hover {
+    color: var(--cyan);
+}
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.cyan {
+    color: var(--cyan);
+}
+p {
+    color: var(--paragraph);
+    font-size: 18px;
+    font-weight: 400;
+}
+.border-bottom {
+    border-bottom: 2px solid var(--Very-dark-blue-line);
+}
+span {
+    color: var(--span);
+    cursor: pointer;
+}
+span:hover {
+    color: var(--cyan);
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flex-center {
+    justify-content: center;
+}
+.flex-space-between {
+    justify-content: space-between;
+}
+.flex-start {
+    justify-content: flex-start;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-10 {
+    gap: 5px;
+}
+.pad-10 {
+    padding-block: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.profile {
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    width: 50px;
+}
