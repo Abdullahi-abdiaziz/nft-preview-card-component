@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View Here](https://github.com/Abdullahi-abdiaziz/nft-preview-card-component)
+- Live Site URL: [View Here](https://nft-preview-card-c5.netlify.app/)
 
 ## My proces
 
