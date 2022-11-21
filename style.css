@@ -26,14 +26,15 @@ body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--bg-body);
 }
-section
-{
-    margin: 0 auto;
+.center {
     background-color: var(--bg-card);
-    max-width: 350px;
-    width: 100%;
+    width: 350px;
+    max-width: 100%;
     border-radius: 10px;
-    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .container {
     padding: 20px;
@@ -62,13 +63,13 @@ section
 .equilibrium:hover {
     opacity: .3;
 }
-h4 {
+h1 {
     font-size: 25px;
     color: var(--heading);
     font-weight: 600;
     cursor: pointer;
 }
-h4:hover {
+h1:hover {
     color: var(--cyan);
 }
 h5 {
